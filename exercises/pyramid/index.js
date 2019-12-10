@@ -21,7 +21,7 @@ function pyramid(n, row = 0, level = '') {
 
    if ((2*n-1) === level.length) {
        console.log(level);
-       pyramid(n, row + 1);
+       return pyramid(n, row + 1);
    }
 
    const midpoint = Math.floor((2*n-1)/2);
