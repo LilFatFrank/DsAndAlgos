@@ -1,0 +1,26 @@
+Ordered collection of data
+Chain of nodes/List of nodes linked together
+Each node contain some data along with the reference of the next node
+Order of the nodes is always maintained
+
+Special nodes: Head / tail
+Tail node does not have a reference to any other node
+data in a node can be any type of valid javascript value (string, number, array, object)
+
+Small and Simple Example: 
+```const nodeOne = {
+    data: 123,
+};
+const nodeTwo = {
+    data: 456,
+};
+nodeOne.next = nodeTwo;```
+
+linkedList like arrays are zero indexed
+
+
+==========================================================
+
+In an interview setting, it's absolutely fine to implement genericFunctions like getAt, insertAt, removeAt instead of 'first' and 'last'
+
+

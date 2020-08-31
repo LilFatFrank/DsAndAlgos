@@ -7,7 +7,14 @@
 //   reverse('Greetings!') === '!sgniteerG'
 
 function reverse(str) {
-    return str.split('').reduce((rev, char) => char + rev, '');
+    /* return str.split('').reduce((rev, char) => char + rev, ''); */
+    let rev = ''
+    for (const i of str) {
+        if (i) {
+            rev = i + rev;
+        }
+    }
+    return rev;
 }
 
 reverse('asdf');
