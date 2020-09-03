@@ -1,0 +1,13 @@
+parent child relationship between different nodes in a tree
+nodes at a similar level can be referred as siblings as long as they have the same parent
+iterating through a tree = traversal
+
+unlike a linked list, a tree is not in charge of the elements inside it
+
+============================================================
+
+Breadth-first traversal
+>traversing at a similar level
+
+Depth-first traversal
+>cover the first children all the way down to its last child, then go back up and do the same for other children
